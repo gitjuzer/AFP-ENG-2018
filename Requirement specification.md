@@ -8,4 +8,4 @@
 4. Scoreboard 
 5. Multiple difficulties
 
-#Current Specification 
+# Current Situations  
