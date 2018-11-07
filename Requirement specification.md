@@ -4,6 +4,10 @@ Here is some text!
 2. Multiple languages
 3. Diferrent themes
 4. Addition to dificulty levels: SUPER MEGA GIGA HARD LEVEL
+5. User can choose between different UI
+6. Multiplayer
+7. Adding monetization
+8. Level Editing, so users can create their own levels! 
 
 # Requirements List
 1. Words/Images need to appear on screen
@@ -12,9 +16,6 @@ Here is some text!
 4. Scoreboard 
 5. Multiple difficulties
 
-<<<<<<< HEAD
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
-=======
 # Current Situations  
->>>>>>> 44f842b4d2484bafaab2053de3c32732252467ad
