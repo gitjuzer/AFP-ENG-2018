@@ -9,3 +9,6 @@
 5. Multiple difficulties
 
 # Current Situations  
+
+# Laws and standards
+- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
