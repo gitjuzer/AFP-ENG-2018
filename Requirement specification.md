@@ -1,5 +1,9 @@
 # Dream Chapter
-
+Here is some text!
+1. Video instead of Images?
+2. Multiple languages
+3. Diferrent themes
+4. Addition to dificulty levels: SUPER MEGA GIGA HARD LEVEL
 
 # Requirements List
 1. Words/Images need to appear on screen
@@ -8,4 +12,5 @@
 4. Scoreboard 
 5. Multiple difficulties
 
-#Current Specification 
+# Laws and standards
+- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
