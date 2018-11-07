@@ -7,3 +7,6 @@
 3. Words/Images can be selected
 4. Scoreboard 
 5. Multiple difficulties
+
+# Laws and standards
+- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
