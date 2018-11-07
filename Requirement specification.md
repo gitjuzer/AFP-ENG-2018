@@ -1,2 +1,2 @@
 # Dream Chapter
-Here should be some text!
+Here is some text!
