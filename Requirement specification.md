@@ -15,8 +15,11 @@ Here is some text!
 3. Words/Images can be selected
 4. Scoreboard 
 5. Multiple difficulties
+6. Levels with specific themes?
+7. Languages choice
+8. Easy to use UI
+9. Instructions before game starts
 
-<<<<<<< HEAD
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
 # Current Situations  
@@ -24,4 +27,3 @@ Here is some text!
 
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
->>>>>>> 1f4deef3eca73181cd9c2761b56a8c131243ac04
