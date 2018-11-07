@@ -1,5 +1,5 @@
 # Dream Chapter
-Here is some text!
+
 
 # Requirements List
 1. Words/Images need to appear on screen
@@ -8,5 +8,4 @@ Here is some text!
 4. Scoreboard 
 5. Multiple difficulties
 
-# Laws and standards
-- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
+#Current Specification 
