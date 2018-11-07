@@ -16,6 +16,13 @@ Here is some text!
 4. Scoreboard 
 5. Multiple difficulties
 
+<<<<<<< HEAD
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
 # Current Situations  
+=======
+# Current Situations  
+
+# Laws and standards
+- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
+>>>>>>> 1f4deef3eca73181cd9c2761b56a8c131243ac04
