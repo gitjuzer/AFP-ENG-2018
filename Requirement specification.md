@@ -17,8 +17,7 @@ Here is some text!
 5. Multiple difficulties
 <<<<<<< HEAD
 <<<<<<< HEAD
-6. Hint can be shown and it should be limited 
-7. After using all hints Player can buy Hint  
+
 =======
 
 #Current Specification 
