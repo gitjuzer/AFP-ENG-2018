@@ -7,8 +7,9 @@ Here is some text!
 5. User can choose between different UI
 6. Multiplayer
 7. Adding monetization
-8. Level Editing, so users can create their own levels! 
-9. Monetization varies acording to the level 
+8. Level Editing, so users can create their own levels!
+9. Android/iOS support
+10. Friendlist: So users can have friends, make groups.
 
 # Requirements List
 1. Words/Images need to appear on screen
@@ -16,27 +17,7 @@ Here is some text!
 3. Words/Images can be selected
 4. Scoreboard 
 5. Multiple difficulties
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-
-#Current Specification 
->>>>>>> dbc194e4992212d2e67b7d9e3f74f5c1af705070
-=======
-6. Levels with specific themes?
-7. Languages choice
-8. Easy to use UI
-9. Instructions before game starts
-10. Instructions will continue in th game till user turns it off
-11. Option for full screen and small window playing
-12. 
 
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
 # Current Situations  
-
-
-# Laws and standards
-- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
->>>>>>> c39e890f1fdd3a15e32cb030608804492f321851
