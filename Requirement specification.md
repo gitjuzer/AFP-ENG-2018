@@ -23,14 +23,6 @@ Here is some text!
 3. Words/Images can be selected
 4. Scoreboard 
 5. Multiple difficulties
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-
-#Current Specification 
->>>>>>> dbc194e4992212d2e67b7d9e3f74f5c1af705070
-=======
 6. Levels with specific themes?
 7. Languages choice
 8. Easy to use UI
