@@ -1,5 +1,7 @@
 # Dream Chapter
+
 Here is some text!
+
 1. Video instead of Images?
 2. Multiple languages
 3. Diferrent themes
@@ -12,7 +14,8 @@ Here is some text!
 10. Friendlist: So users can have friends, make groups.
 11. Chat. Thus we have friendlist, we can add chatiing service as well.
 12. Android/iOS support?
-
+13. Augmented reality levels, some Pokemon go things!
+14. Adult only and Child mode, keeps childs away from deep internet
 
 # Requirements List
 1. Words/Images need to appear on screen
