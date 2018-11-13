@@ -9,13 +9,15 @@ Here is some text!
 5. User can choose between different UI
 6. Multiplayer
 7. Adding monetization
-8. Level Editing, so users can create their own levels! 
+8. Level Editing, so users can create their own levels!
 9. Monetization varies acording to the level.
 10. Friendlist: So users can have friends, make groups.
 11. Chat. Thus we have friendlist, we can add chatiing service as well.
 12. Android/iOS support?
 13. Augmented reality levels, some Pokemon go things!
-14. Adult only and Child mode, keeps childs away from deep internet
+14. Adult only and Child mode, keeps childs away from deep internet.
+15. Choosing field of questions, so you can try your best in your favorite sphere.
+16. Ranking system: makes people compete with each other, thus more you play more you know(educational app).
 
 # Requirements List
 1. Words/Images need to appear on screen
