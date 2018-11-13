@@ -42,7 +42,14 @@ Here is some text!
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
 # Current Situations  
-
+Mobile computing is the future of business. Smartphone and tablet sales are on the rise and businesses are finally jumping on board. However, choosing the right path is a challenging task for business just stepping out into mobile territory. If you wish to create mobile apps for your business, you have two options: Create native apps or mobile web apps. The decision largely hinges on your company’s needs. 
+To summarize the information detailed above, here are 5 important factors that will impact your mobile application decision:
+1. If you want apps that work across multiple platforms, mobile web apps are a better option. 
+2. If you want apps that access the device’s camera or microphone, native apps are a better option. 
+3. If security is important, mobile web apps are a better option. 
+4. If you want to sell your apps, native apps are a better option. 
+5. If you want apps that integrate with existing systems and databases, mobile web apps are a better option. 
+If your company plans on creating mobile apps this year, those factors will help guide your planning. Remember, mobile computing is the future of business.
 
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
