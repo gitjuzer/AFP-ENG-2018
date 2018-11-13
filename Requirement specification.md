@@ -8,6 +8,7 @@ Here is some text!
 6. Multiplayer
 7. Adding monetization
 8. Level Editing, so users can create their own levels! 
+9. 
 
 # Requirements List
 1. Words/Images need to appear on screen
@@ -27,6 +28,8 @@ Here is some text!
 7. Languages choice
 8. Easy to use UI
 9. Instructions before game starts
+10. Instructions will continue in th game till user turns it off
+11. Option for full screen and small window playing
 
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
