@@ -8,7 +8,11 @@ Here is some text!
 6. Multiplayer
 7. Adding monetization
 8. Level Editing, so users can create their own levels! 
-9. Monetization varies acording to the level 
+9. Monetization varies acording to the level.
+10. Friendlist: So users can have friends, make groups.
+11. Chat. Thus we have friendlist, we can add chatiing service as well.
+12. Android/iOS support?
+
 
 # Requirements List
 1. Words/Images need to appear on screen
