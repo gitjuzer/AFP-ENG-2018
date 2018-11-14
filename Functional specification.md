@@ -25,3 +25,5 @@ As stated in the requirement specification, copyright content can be used for ed
 
 
 # What it should be, and what it should not be.
+It's should simply be compatible with many platforms such as Android and web browser even IOS.
+it should be with a perfect design to attract users to try our app!
