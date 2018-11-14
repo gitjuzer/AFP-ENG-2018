@@ -33,8 +33,6 @@ Here is some text!
 11. Option for full screen and small window playing
 12. 
 
-# Laws and standards
-- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
 # Current Situations  
 Mobile computing is the future of business. Smartphone and tablet sales are on the rise and businesses are finally jumping on board. However, choosing the right path is a challenging task for business just stepping out into mobile territory. If you wish to create mobile apps for your business, you have two options: Create native apps or mobile web apps. The decision largely hinges on your company’s needs. 
 To summarize the information detailed above, here are 5 important factors that will impact your mobile application decision:
@@ -47,4 +45,3 @@ If your company plans on creating mobile apps this year, those factors will help
 
 # Laws and standards
 - Since the purpose of the program is education, in most countries we can use copyright pictures as well.
->>>>>>> c39e890f1fdd3a15e32cb030608804492f321851
