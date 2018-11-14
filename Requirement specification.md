@@ -1,3 +1,56 @@
+
+#Requirement Specification Chapter
+
+Introduction
+
+1.Purpose
+2.Intended audience
+3.Project outline
+4.Goal
+
+Purpose
+The purpose of this document is to build an education based game that will be interactive and stimulation to the user. 
+
+Intended Audience
+
+This is aimed to the 4 types of game players. Namely :
+
+1.Achiever : accumulate status tokens by beating the rules-based challenges of the game world
+2.Killers: interfere with the functioning of the game world or the play experience of other players
+3.Explorers: discover the systems governing the operation of the game world
+4.Socializers: form relationships with other players by telling stories within the game world
+
+These four styles emerged from the combination of two primary gameplay interests, which I've called Content and Control, each of which has two mutually exclusive forms. Content is defined to mean either acting simply and directly on objects in the game world, or interacting more deeply with world-systems. Control refers to how players want to experience the game world -- either through the dynamic behaviors of other players, or with the relatively static world of the game itself.
+
+Project Ouline
+
+Play 
+Children are great at playing. It is how they learn to avoid dangers and live in
+our community. The best approach to surviving different situations is to imagine
+them beforehand and play them out with or without our friends and using toys
+as representations of objects. We grownups just have a different name for it:
+simulation. What sets simulation and play apart is that play is associated with
+fun and simulation with work. 
+
+Pretending 
+Players of a game agree to a certain level of pretension, this is often referred as
+the “magic circle”. The magic circle sets the boundary between ideas and
+activities that are meaningful in the game from those that are meaningful in the
+real world. 
+ 
+Rules 
+Rules are created in advance by a game designer and rarely change
+significantly during the game. Every player must accept the rules before starting
+the game 
+
+Meaningful play
+Meaningful play in a game emerges from the relationship between player action
+and system outcome; it is the process by which a player takes action within the
+designed system of a game and the system responds to the action.
+
+Goal
+The goal is to maximize enjoyment and engagement through capturing the interest of learners and inspiring them to continue learning.
+
 # Dream Chapter
 
 Here is some text!
@@ -33,8 +86,6 @@ Here is some text!
 11. Option for full screen and small window playing
 12. 
 
-# Laws and standards
-- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
 # Current Situations  
 Mobile computing is the future of business. Smartphone and tablet sales are on the rise and businesses are finally jumping on board. However, choosing the right path is a challenging task for business just stepping out into mobile territory. If you wish to create mobile apps for your business, you have two options: Create native apps or mobile web apps. The decision largely hinges on your company’s needs. 
 To summarize the information detailed above, here are 5 important factors that will impact your mobile application decision:
@@ -46,5 +97,6 @@ To summarize the information detailed above, here are 5 important factors that w
 If your company plans on creating mobile apps this year, those factors will help guide your planning. Remember, mobile computing is the future of business.
 
 # Laws and standards
-- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
->>>>>>> c39e890f1fdd3a15e32cb030608804492f321851
+- Since the purpose of the program is education, in most countries we can use copyright content as well.
+- Since the new data protection laws, the users must explicitly accept their data to be stored and used.
+- Whenever communications happen between the client side and server side, the data should be sent as a json string.
