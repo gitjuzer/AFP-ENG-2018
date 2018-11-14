@@ -44,4 +44,7 @@ To summarize the information detailed above, here are 5 important factors that w
 If your company plans on creating mobile apps this year, those factors will help guide your planning. Remember, mobile computing is the future of business.
 
 # Laws and standards
-- Since the purpose of the program is education, in most countries we can use copyright pictures as well.
+- Since the purpose of the program is education, in most countries we can use copyright content as well.
+- Since the new data protection laws, the users must explicitly accept their data to be stored and used.
+
+- Whenever communications happen between the client side and server side, the data should be sent as a json string.
