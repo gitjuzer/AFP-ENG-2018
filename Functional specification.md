@@ -14,3 +14,6 @@ Team of developers already divided tasks, so each of us has their own job to do.
 
 # Constraints on the system
 
+
+
+# What it should be, and what it should not be.
