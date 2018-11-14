@@ -8,4 +8,9 @@ List of the tasks, which are done:
 1. Requirement specification: Dream Chapter.
 2. Requirement specification: Current Specification.
 3. Requirement specification: Requirements List.
-4. Requirement specification: Laws and standards
+4. Requirement specification: Laws and standards.
+
+Team of developers already divided tasks, so each of us has their own job to do. 
+
+# Constraints on the system
+
