@@ -10,13 +10,12 @@ List of the tasks, which are done:
 3. Requirement specification: Requirements List.
 4. Requirement specification: Laws and standards.
 
-# UI plans
-1.ScoreBoard is displayed once player(s) finished the certain level in the game
+#UI plans
+1. ScoreBoard is displayed once player(s) finished the certain level in the game
 2. 3 difficulty level is diplayed with 3 different colored layers one on top of the other 
 3. For simplicity menu items (difficulty level settings etc.) are displayed in card like UI
 4. At the top of the screen toggle swith is displayed for full screen and small window UI
 5. For multiplayer there will be separete screen in which there player can interreact with eachothers
-6. When user switching between hardness level so called SUPER, MEGA GIGA small animation will appear on the screen for couple of seconds 
 
 
 
@@ -34,9 +33,11 @@ It's should simply be compatible with many platforms such as Android and web bro
 it should be with a perfect design to attract users to try our app!
 
 # Used Cases
-The used cases are :
-1. Beat the GMAT: students increase their time spent on site by 370% through a gamified system
-2. Deloitte Leadership Academy, an executive training program, increased by 46.6% the number of users that returned daily to their    platform by embedding gamification mechanics into it
-4.  Stray Boots & A.L.Penenberg: the professor taught journalism through gamification and saw student grades increase by more than a letter grade
-5. Devhub: a place for Web developers, added gaming feedback and watched in awe as the percentage of users who finished their sites shot up from 10% to 80%
-6. Foldit: gamers have solved a 15-Year AIDS Virus Protein problem within 10 days
+Teacher
+-Will be able to create and upload learning material.
+-Will be able to check the progress of the students
+
+Learners
+-
+
+
