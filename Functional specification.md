@@ -7,6 +7,8 @@ Team of developers already divided tasks, so each of us has their own job to do.
 #UI plans
 1.ScoreBoard is displayed once player(s) finished the certain level in the game
 2. 3 difficulty level is diplayed with 3 different colored layers one on top of the other 
+3. For simplicity menu items (difficulty level settings etc.) are displayed in card like UI
+4. 
 =======
 Team of developers already divided tasks, so each of us has their own job to do.
 We have additional developer, that joined our team on 14th of Nov 2018.
