@@ -17,7 +17,6 @@ List of the tasks, which are done:
 3. Requirement specification: Requirements List.
 4. Requirement specification: Laws and standards.
 
-Team of developers already divided tasks, so each of us has their own job to do. 
 
 # Constraints on the system
 
