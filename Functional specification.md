@@ -1,8 +1,6 @@
 # Current situation
 
 We already decided what kind of problem to solve. We almost finished our requirment specification. Facebook messenger chat was created for further communications.
-<<<<<<< HEAD
-<<<<<<< HEAD
 Team of developers already divided tasks, so each of us has their own job to do. 
 
 #UI plans
@@ -10,9 +8,6 @@ Team of developers already divided tasks, so each of us has their own job to do.
 2. 3 difficulty level is diplayed with 3 different colored layers one on top of the other 
 3. For simplicity menu items (difficulty level settings etc.) are displayed in card like UI
 4. 
-=======
-=======
->>>>>>> 94f1e4b482724337a23fdd3b93ce39b9ec192340
 Team of developers already divided tasks, so each of us has their own job to do.
 We have additional developer, that joined our team on 14th of Nov 2018.
 List of the tasks, which are done:
