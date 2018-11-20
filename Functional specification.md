@@ -35,9 +35,14 @@ it should be with a perfect design to attract users to try our app!
 # Used Cases
 Teacher
 -Will be able to create and upload learning material.
--Will be able to check the progress of the students
+-Will be able to check the progress of the students.
+-Will be able to examine the response pattern made by students.
+-Will be able to alter the difficulty level of each question.
 
 Learners
--
+-Will be able to answer the questions by choosing the most unlikely or likely answer depending on the question.
+-Will be able to choose the difficulty of each play.
+-Will be able to receive feedback on their progress.
+-Will be able get a more visual learning experience.
 
 
