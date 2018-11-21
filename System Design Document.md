@@ -11,6 +11,7 @@
 1. Project Plan: Aziz Gasimov
 2. Testing Plan: Amer Mamoun
 3. Database Plan: Rayne Blair
+4. Functional Plan: Xolani Nhlapon
 
 
 
