@@ -49,3 +49,5 @@ Learners
 -Will be able to play in groups.
 -Will be able to chat with other students. 
 
+# How it applies to the use cases
+The game will provide the 
