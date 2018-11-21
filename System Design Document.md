@@ -17,6 +17,9 @@
 5. Physical Design: Rayne Blair
 6. Business logic model:  Kaddour Srarfi
 
+--deadline may wary and it can be from 1 up to 4 weeks long 
+
+
 
 
 
@@ -29,7 +32,6 @@
 # Logical design
 
 # Physical Design
-
 
 # Database plan
 
