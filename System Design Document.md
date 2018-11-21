@@ -2,6 +2,8 @@
 
 ![alt System Design scheme(unfinished)](systemDesignScheme.png)
 
+# Testing plan
+
 # Project plan
 
 # Business logic model
@@ -10,12 +12,11 @@
 
 # Functional plan
 
-# Architectural Design 
-
 # Logical design
 
 # Physical Design
 
 # Database plan
 
+# Update plan
 
