@@ -38,11 +38,14 @@ Teacher
 -Will be able to check the progress of the students.
 -Will be able to examine the response pattern made by students.
 -Will be able to alter the difficulty level of each question.
+-Will be able to interact with the student in the by chat during the game.
+-Will be able to host a group game play.
 
 Learners
 -Will be able to answer the questions by choosing the most unlikely or likely answer depending on the question.
 -Will be able to choose the difficulty of each play.
 -Will be able to receive feedback on their progress.
 -Will be able get a more visual learning experience.
-
+-Will be able to play in groups.
+-Will be able to chat with other students. 
 
