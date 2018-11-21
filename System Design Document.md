@@ -5,8 +5,10 @@
 # Testing plan
 
 # Project plan
+
 1. Game Project
-2. Team Memmbers: Aziz Gasimov , Maksat Baigazy, Miklos Kovacs, Amer Mamoun , Xolani Nhlapon, Rayne Blair, Kaddour Srarfi, Chihep Njr
+2. Scrum Master : Miklos Kovacs
+3. Team Memmbers: Aziz Gasimov , Maksat Baigazy, Miklos Kovacs, Amer Mamoun , Xolani Nhlapon, Rayne Blair, Kaddour Srarfi, Chihep Njr
 -- Tasks Assigned for members:
 1. Project Plan: Aziz Gasimov
 2. Testing Plan: Amer Mamoun
@@ -14,6 +16,7 @@
 4. Functional Plan: Xolani Nhlapon
 5. Physical Design: Rayne Blair
 6. Business logic model:  Kaddour Srarfi
+
 
 
 
