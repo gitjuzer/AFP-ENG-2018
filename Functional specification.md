@@ -133,3 +133,7 @@ Open Questions	<none>
 
 # Func. spec. : How it applies to the use cases
 They will provide the guide lines as to how the game is supposed to function. 
+1. The created learning material will contain the Words/Images that will be uses in the game
+2. The scoreboard will have the results required in the used cases.
+3. The group game play will indicate and solve the multiple player difficulty
+4. The different diffculty levels in will contain different themes for easy indentification.
