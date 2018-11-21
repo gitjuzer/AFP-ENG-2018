@@ -10,8 +10,9 @@
 -- Tasks Assigned for members:
 1. Project Plan: Aziz Gasimov
 2. Testing Plan: Amer Mamoun
-3. Database Plan: Rayne Blair
+3. Database Plan: Maksat Baigazy
 4. Functional Plan: Xolani Nhlapon
+5. 
 
 
 
