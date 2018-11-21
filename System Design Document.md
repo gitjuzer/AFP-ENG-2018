@@ -12,7 +12,8 @@
 2. Testing Plan: Amer Mamoun
 3. Database Plan: Maksat Baigazy
 4. Functional Plan: Xolani Nhlapon
-5. 
+5. Physical Design: Rayne Blair
+6. Business logic model:  Kaddour Srarfi
 
 
 
