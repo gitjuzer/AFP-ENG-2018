@@ -6,7 +6,9 @@
 
 # Project plan
 1. Game Project
-2. Team Memmbers: Aziz Gasimov , Maksat Bigazy, miklos Kovacs, Amer Mamoun , Xolani Nhlapon, Rayne Blair, Kaddour Srarfi, Chihep Njr
+2. Team Memmbers: Aziz Gasimov , Maksat Baigazy, Miklos Kovacs, Amer Mamoun , Xolani Nhlapon, Rayne Blair, Kaddour Srarfi, Chihep Njr
+-- Tasks Assigned for members:
+1. Project Plan: Aziz Gasimov
 
 
 
