@@ -33,21 +33,103 @@ It's should simply be compatible with many platforms such as Android and web bro
 it should be with a perfect design to attract users to try our app!
 
 # Used Cases
-Teacher
--Will be able to create and upload learning material.
--Will be able to check the progress of the students.
--Will be able to examine the response pattern made by students.
--Will be able to alter the difficulty level of each question.
--Will be able to interact with the student in the by chat during the game.
--Will be able to host a group game play.
+Actors: Teacher and Student
 
-Learners
--Will be able to answer the questions by choosing the most unlikely or likely answer depending on the question.
--Will be able to choose the difficulty of each play.
--Will be able to receive feedback on their progress.
--Will be able get a more visual learning experience.
--Will be able to play in groups.
--Will be able to chat with other students. 
+UC-1 	<create and upload learning material> 
+Primary Actor(s)	< Teacher>
+Description	<The teacher will be able to create and upload learning material for the learners to use.>
+Trigger	<When learning material is too old. 
+         When previous learning material has been updated but have not been uploaded.>
+Pre-conditions	<The old learning material has not been altered/changed/updated. > 
+Post-conditions	<The new updated learning material is in use.> 
+Main Success Scenario	
+1.	Check if old learning material hass been updated, if not.
+2.	Upload new learning material
+3.	New learning material should be uploaded and used.
+  
+Extensions	If Condition, then Alternative Steps
+<If the learning material has been updated/created then do not update learning material.>
+Priority	<To have latest learning material in the game)
+Special Requirements	<none> 
+Open Questions	<none>
 
-# How it applies to the use cases
-The game will provide the 
+UC-2 	<Check Progress> 
+Primary Actor(s)	< Teacher >
+Description	<Will be able to check the progress of the student>
+Trigger	<Completion of the game>
+Pre-conditions	<That the student has completed the game atleast once> 
+Post-conditions	<Able to see the progress of the student > 
+Main Success Scenario	
+1.	Check if the student has finished the game
+2.	Check results of student
+3.	If the results appear then the goal has been fulfiled
+Extensions	If results do not appear
+< Request student to play the game >
+Priority	<High: display results)
+Special Requirements	<none> 
+Open Questions	<none>
+
+UC-3	<Change Difficulty level> 
+Primary Actor(s)	< student>
+Description	<change between difficulty levels >
+Trigger	<When user would like to be challeged or start from the lowest level>
+Pre-conditions	<Default difficulty level: Easy, is active > 
+Post-conditions	<Difficult level is not Easy> 
+Main Success Scenario	
+1.	<check if difficulty level is Easy, if it is then
+2.	Change difficulty level to desired level
+3.	New level is set: GOAL-ACHIEVED>
+Extensions	If difficulty level is not Easy then
+<Change difficulty level to desired difficulty leve>
+Priority	<High: Difficulty level change)
+Special Requirements	<none> 
+Open Questions	<none>
+
+UC-4 	<Group chat in game> 
+Primary Actor(s)	< student and teacher >
+Description	<students and teachers will be able to communicate and share ideas>
+Trigger	<If the students and/or teacher would like to share ideas and solutions>
+Pre-conditions	<No active group chat> 
+Post-conditions	<Active group chat > 
+Main Success Scenario	
+1.	<check if group chat is active, if not
+2.	invite users to join group chat
+3.	Active group chat:  GOAL-ACHIEVED>
+Extensions	If group chat is already active then
+<Ignore request for a group new chat.>
+Priority	<High: Active group chat)
+Special Requirements	<none> 
+Open Questions	<none>
+                       
+UC-5 	<Group game play> 
+Primary Actor(s)	< Students >
+Description	<Students can have play together in answering the questions>
+Trigger	< If student would like to share a game and help each other >
+Pre-conditions	<That there student/user is not on group play at that moment> 
+Post-conditions	<You will have multiple player in one game > 
+Main Success Scenario	
+1.	<Check if student is on group play
+2.	invite other students to play you want to share the game with
+3.	If more than 1 student is in the same game then use case is fulfilled >
+Extensions	If student is already in a group game
+<ignore request for a group play)
+Special Requirements	<none> 
+Open Questions	<none>
+                       
+UC-6 	<Answering Questions> 
+Primary Actor(s)	< students >
+Description	<students have to provide answers to the question given>
+Trigger	< when a question is asked >
+Pre-conditions	< Question has been asked and has not been answered before > 
+Post-conditions	< when answer is given by student > 
+Main Success Scenario	
+1.	Check if question has been asked, if not.
+2.	Ask desired question
+3.	When question is answered, then the goal hass been fulfilled>
+Extensions	If question is not answered then
+<Ask question again , give option to skip question or offer a clue. )
+Special Requirements	<none> 
+Open Questions	<none>                       
+
+# Func. spec. : How it applies to the use cases
+They will provide the guide lines as to how the game is supposed to function. 
