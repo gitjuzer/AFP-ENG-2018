@@ -151,13 +151,23 @@ The focus of Performance Testing is checking a software program's
 
 # Database plan
 
-We need to have a database for our project, at least 2 tables: Users and Data table for app use.
+We need to have a database for our project, at least 2 tables: Users and Images table for app use.
 In user table we will have 4 columns:
 
 1. id (int, AI)
 2. username (varchar, unique)
 3. password (varchar)
 4. email (varchar, unique)
+
+Images table:
+
+1. id (int, AI)
+2. imagesource (varchar)
+
+Topic (of image)
+//image can have only one topic
+1. id (int, AI)
+2. topicname(varchar, unique) 
 
 
 # Update plan
