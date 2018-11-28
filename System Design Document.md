@@ -117,7 +117,18 @@ The focus of Performance Testing is checking a software program's
 
 -Scalability testing - The objective of scalability testing is to determine the software application's effectiveness in "scaling up" to support an increase in user load. It helps plan capacity addition to your software system.
 
+_Performance Test Tools
+There are a wide variety of performance testing tools available in market. The tool you choose for testing will depend on many factors such as types of protocol supported , license cost , hardware requirements , platform support etc. Below is a list of popularly used testing tools.
 
+--NeoLoad - is the performance testing platform designed for DevOps that seamlessly integrates into your existing Continuous Delivery pipeline. With NeoLoad, teams test 10x faster than with traditional tools to meet the new level of requirements across the full Agile software development lifecycle - from component to full system-wide load tests.
+
+--WebLOAD - is a pioneer and leader in load testing, providing rich capabilities for managing large-scale performance tests in complex enterprise environments. Running in the cloud or on-premises, WebLOAD offers advanced scripting, recording, and automated correlation, while allowing organizations to automate load testing for seamless DevOps integration and continuous delivery
+
+--LoadView Testing - Test your infrastructure at any scale. From small targeted tests to millions of users, find performance bottlenecks and adjust your capacity plan accordingly. LoadView offers on-demand, 100% cloud based load testing. Test user experience with real browsers, for a complete performance picture.
+
+--HP LoadRunner - is the most popular performance testing tools on the market today. This tool is capable of simulating hundreds of thousands of users, putting applications under real life loads to determine their behavior under expected loads. Loadrunner features a virtual user generator which simulates the actions of live human users.
+
+--Jmeter - one of the leading tools used for load testing of web and application servers.
 
 
 
@@ -134,6 +145,9 @@ The focus of Performance Testing is checking a software program's
 4. Functional Plan: Xolani Nhlapon
 5. Physical Design: Rayne Blair
 6. Business logic model:  Kaddour Srarfi
+--Deadline for all tasks are the same: 15/12/2018
+
+
 
 
 
@@ -155,7 +169,6 @@ These recent developments illustrates that gamification can be compliment in boo
 
 # Physical Design
 
-
 # Database plan
 
 We need to have a database for our project, at least 2 tables: Users and Data table for app use.
@@ -168,13 +181,11 @@ In user table we will have 4 columns:
 
 
 # Update plan
-As it is a *web based application*, the rollout of the updates **might** result in *temporary downtime*. The two exact scenarios are the following:
-- In case, **we have *High Availability*** system, the updates can be rolled out to the servers one by one, meaning absolutely *no downtime*.
-- In case, **we do not have *HA* system**, the server must *disconnect* any *logged in users* and should *not allow new connections*. Then the update can be applied on the server, finally the server can be set again to allow connections.
+As it is a web based application, the rollout of the updates might result in temporary downtime. The two exact scenarios are the following:
+- In case, we have High Availability system, the updates can be rolled out to the servers one by one, meaning absolutely no downtime.
+- In case, we do not have HA system, the server must disconnect any logged in users and should not allow new connections. Then the update can be applied on the server, finally the server can be set again to allow connections.
 
-Updates should happen **every month**, applying new requirements from every side. The exact time for the update should be the *11th day of every month*, at *03:20*, as it seems to be the time, when the system would be used the least.
-
-It is a **must**, that we make a *backup* before an update happens. The backup should be a **full database, and filesystem backup**. The automation of this sys is *recommended*.
+Updates should happen every month, applying new requirements from every side. The exact time for the update should be the 11th day of every month, at 03:20, as it seems to be the time, when the system would be used the least.
 
 The *update development* should happen on a *scaled down version of the live server*, the **tesing of the update should begin on the 5th day of every month**. Before that, on the 4th of every month, a *database cloning* should happen from the live server **to the test server**.
 
