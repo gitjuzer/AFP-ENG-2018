@@ -162,6 +162,15 @@ target Platforms will be Android and iOS
 
 # Requirements
 
+In the requirements of the system design document, it is crucial to include the following inorder to a successfull gamification
+1. Achievement "badges"
+2. Achievement level
+3. "leader boards"
+4. A progress bar or other visual meter to indicate how close people are to completing a task a company is trying to encourage, such as    completing a social networking profile or earning a frequent shopper loyalty award.
+5. Virtual currency
+6. Systems for awarding, redeeming, trading, gifting, and otherwise exchanging points
+7. Challenges between users embedding small casual games within other activities.
+
 # Functional plan
 Developers are constantly learning new tools and processes while accumulating real world experiences to be able to resolve problems quickly and elegantly. The down side is that developers require time to explore and learn the tools available to them by which workplaces tend to discourage as work deadlines are prioritized over experimentation. However, gamification systems incorporated as part of the developer’s familiarization period could save time and enable effective learning. 
 
