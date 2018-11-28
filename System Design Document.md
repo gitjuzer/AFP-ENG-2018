@@ -146,6 +146,8 @@ There are a wide variety of performance testing tools available in market. The t
 5. Physical Design: Rayne Blair
 6. Business logic model:  Kaddour Srarfi
 --Deadline for all tasks are the same: 15/12/2018
+--Estimated Budget for the project is 2.000.000 Ft
+
 
 
 
