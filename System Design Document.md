@@ -185,6 +185,7 @@ In user table we will have 4 columns:
 2. username (varchar, unique)
 3. password (varchar)
 4. email (varchar, unique)
+5. user_role (foreign key: user_role.id)
 
 This is our main table for login and registration, it requires to be filled 3 columns: Username, which should not be same as someone's else, password to have an acces to your account and email, maybe for future verification feature and for updates and notifications. Without loggining the user has no permission to use our app. Most probable user has to agree for terms of use (of his bank card. HAHA).
 
