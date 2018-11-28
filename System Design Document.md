@@ -173,7 +173,7 @@ These recent developments illustrates that gamification can be compliment in boo
 
 # Database plan
 
-We need to have a database for our project, at least 2 tables: Users and Images table for app use.
+We need to have a database for our project, at least 2 tables: Users and Data table for app use.
 In user table we will have 4 columns:
 
 1. id (int, AI)
@@ -181,12 +181,12 @@ In user table we will have 4 columns:
 3. password (varchar)
 4. email (varchar, unique)
 
-Images table:
+Data table:
 
 1. id (int, AI)
-2. imagesource (varchar)
+2. Datasource (varchar)
 
-Topic (of image)
+Topic (of Data)
 //image can have only one topic
 1. id (int, AI)
 2. topicname(varchar, unique) 
