@@ -117,7 +117,18 @@ The focus of Performance Testing is checking a software program's
 
 -Scalability testing - The objective of scalability testing is to determine the software application's effectiveness in "scaling up" to support an increase in user load. It helps plan capacity addition to your software system.
 
+_Performance Test Tools
+There are a wide variety of performance testing tools available in market. The tool you choose for testing will depend on many factors such as types of protocol supported , license cost , hardware requirements , platform support etc. Below is a list of popularly used testing tools.
 
+--NeoLoad - is the performance testing platform designed for DevOps that seamlessly integrates into your existing Continuous Delivery pipeline. With NeoLoad, teams test 10x faster than with traditional tools to meet the new level of requirements across the full Agile software development lifecycle - from component to full system-wide load tests.
+
+--WebLOAD - is a pioneer and leader in load testing, providing rich capabilities for managing large-scale performance tests in complex enterprise environments. Running in the cloud or on-premises, WebLOAD offers advanced scripting, recording, and automated correlation, while allowing organizations to automate load testing for seamless DevOps integration and continuous delivery
+
+--LoadView Testing - Test your infrastructure at any scale. From small targeted tests to millions of users, find performance bottlenecks and adjust your capacity plan accordingly. LoadView offers on-demand, 100% cloud based load testing. Test user experience with real browsers, for a complete performance picture.
+
+--HP LoadRunner - is the most popular performance testing tools on the market today. This tool is capable of simulating hundreds of thousands of users, putting applications under real life loads to determine their behavior under expected loads. Loadrunner features a virtual user generator which simulates the actions of live human users.
+
+--Jmeter - one of the leading tools used for load testing of web and application servers.
 
 
 
