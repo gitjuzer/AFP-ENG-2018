@@ -92,6 +92,19 @@ There are more than 50 types of System Testing. For an exhaustive list of softwa
 
 7_Hardware/Software Testing - IBM refers to Hardware/Software testing as "HW/SW Testing". This is when the tester focuses his/her attention on the interactions between the hardware and software during system testing.
 
+4. Performance Testing:
+Performance Testing is a type of testing to ensure software applications will perform well under their expected workload.
+
+Features and Functionality supported by a software system is not the only concern. A software application's performance like its response time, reliability, resource usage and scalability do matter. The goal of Performance Testing is not to find bugs but to eliminate performance bottlenecks.
+
+The focus of Performance Testing is checking a software program's
+
+-Speed - Determines whether the application responds quickly
+-Scalability - Determines maximum user load the software application can handle.
+-Stability - Determines if the application is stable under varying loads
+-Performance Testing is popularly called as “Perf Testing” and is a subset of performance engineering.
+
+
 
 
 
