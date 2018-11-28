@@ -35,6 +35,24 @@ JMockit:  JMockit is open source Unit testing tool.  It is code coverage tool wi
 EMMA:  EMMA is an open-source toolkit for analyzing and reporting code written in Java language. Emma support coverage types like method, line, basic block. It is Java-based so it is without external library dependencies and can access to the source code.
 PHPUnit: PHPUnit is a unit testing tool for PHP programmer. It takes small portions of code which is called units and test each of them separately.  The tool also allows developers to use pre-define assertion methods to assert that system behave in a certain manner. 
 Those are just a few of the available unit testing tools. There are lots more, especially for C languages and Java, but you are sure to find a unit testing tool for your programming needs regardless of the language you use.
+
+2. Integration Testing:
+In integration Testing, individual software modules are integrated logically and tested as a group.
+
+A typical software project consists of multiple software modules, coded by different programmers.
+
+ integration Testing focuses on checking data communication amongst these modules.
+
+Hence it is also termed as 'I & T' (Integration and Testing), 'String Testing' and sometimes 'Thread Testing'.
+
+_Guidelines for Integration Testing
+* First determine the Integration Test Strategy that could be adopted and later prepare the test cases and test data accordingly.
+* Study the Architecture design of the Application and identify the Critical Modules. These need to be tested on priority.
+* Obtain the interface designs from the Architectural team and create test cases to verify all of the interfaces in detail. Interface to database/external hardware/software application must be tested in detail.
+* After the test cases, it's the test data which plays the critical role.
+* Always have the mock data prepared, prior to executing. Do not select test data while executing the test cases.
+
+
 # Project plan
 
 1. Game Project
