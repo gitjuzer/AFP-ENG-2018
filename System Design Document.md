@@ -138,18 +138,18 @@ There are a wide variety of performance testing tools available in market. The t
 1. Game Project
 2. Scrum Master : Miklos Kovacs
 3. Team Memmbers: Aziz Gasimov , Maksat Baigazy, Miklos Kovacs, Amer Mamoun , Xolani Nhlapon, Rayne Blair, Kaddour Srarfi, Chihep Njr
--- Tasks Assigned for members:
+- Tasks Assigned for members:
 1. Project Plan: Aziz Gasimov
 2. Testing Plan: Amer Mamoun
 3. Database Plan: Maksat Baigazy
 4. Functional Plan: Xolani Nhlapon
 5. Physical Design: Rayne Blair
 6. Business logic model:  Kaddour Srarfi
---As for OS the product is designed for Windows OS, Mac OS, Linux OS and after publishing the project we will work on mobile environment and 
+7. As for OS the product is designed for Windows OS, Mac OS, Linux OS and after publishing the project we will work on mobile environment and 
 target Platforms will be Android and iOS
---Aziz Gasimov is responsible for Publishing the product on every platform's Application store and on the official web site
---Deadline for all tasks are the same: 15/12/2018
---Estimated Budget for the project is 2.000.000 Ft
+8. Aziz Gasimov is responsible for Publishing the product on every platform's Application store and on the official web site
+9. Deadline for all tasks are the same: 15/12/2018
+10. Estimated Budget for the project is 2.000.000 Ft
 
 
 
