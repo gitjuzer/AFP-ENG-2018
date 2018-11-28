@@ -7,6 +7,17 @@
 Software Testing Methodology is defined as strategies and testing types used to certify that the Application Under Test meets client expectations. Test Methodologies include functional and non-functional testing to validate the AUT. Examples of Testing Methodologies are Unit Testing, Integration Testing, System Testing, Performance Testing etc. Each testing methodology has a defined test objective, test strategy and deliverables.
 
 
+#Software Testing Hierarchy
+As with almost any technical process, software testing has a prescribed order in which things should be done. The following is a list of software testing categories arranged in chronological order. These are the steps taken to fully test new software in preparation for marketing it:
+
+* Unit testing - testing performed on each module or block of code during development. Unit Testing is normally done by the programmer who writes the code.
+
+* Integration testing - testing done before, during and after integration of a new module into the main software package. This involves testing of each individual code module. One piece of software can contain several modules which are often created by several different programmers. It is crucial to test each module's effect on the entire program model.
+
+* System testing - testing done by a professional testing agent on the completed software product before it is introduced to the market.
+
+* Acceptance testing - beta testing of the product done by the actual end users.
+
 1. Unit Testing:
 Unit Testing of software applications is done during the development (coding) of an application.
 
@@ -51,6 +62,17 @@ _Guidelines for Integration Testing
 * Obtain the interface designs from the Architectural team and create test cases to verify all of the interfaces in detail. Interface to database/external hardware/software application must be tested in detail.
 * After the test cases, it's the test data which plays the critical role.
 * Always have the mock data prepared, prior to executing. Do not select test data while executing the test cases.
+
+
+3. System Testing
+System Testing is the testing of a complete and fully integrated software product. Usually software is only one element of a larger computer based system. Ultimately, software is interfaced with other software/hardware systems.System Testing is actually a series of different tests whose sole purpose is to exercise the full computer based system.
+
+Two Category of Software Testing
+
+* Black Box Testing
+* White Box Testing
+System test falls under the black box testing category of software testing.
+White box testing is the testing of the internal workings or code of a software application. In contrast, black box or System Testing is the opposite. System test involves the external workings of the software from the user's perspective.
 
 
 # Project plan
