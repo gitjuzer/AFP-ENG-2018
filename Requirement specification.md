@@ -84,7 +84,6 @@ Here is some text!
 9. Instructions before game starts
 10. Instructions will continue in th game till user turns it off
 11. Option for full screen and small window playing
-12. 
 
 # Current Situations  
 Mobile computing is the future of business. Smartphone and tablet sales are on the rise and businesses are finally jumping on board. However, choosing the right path is a challenging task for business just stepping out into mobile territory. If you wish to create mobile apps for your business, you have two options: Create native apps or mobile web apps. The decision largely hinges on your company’s needs. 
@@ -100,3 +99,4 @@ If your company plans on creating mobile apps this year, those factors will help
 - Since the purpose of the program is education, in most countries we can use copyright content as well.
 - Since the new data protection laws, the users must explicitly accept their data to be stored and used.
 - Whenever communications happen between the client side and server side, the data should be sent as a json string.
+
