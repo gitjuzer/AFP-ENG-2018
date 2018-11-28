@@ -14,6 +14,27 @@ The objective of Unit Testing is to isolate a section of code and verify its cor
 
 The goal of Unit Testing is to isolate each part of the program and show that the individual parts are correct. Unit Testing is usually performed by the developer.
 
+_Createing Unit Test Cases:
+Unit testing is commonly automated, but may still be performed manually. The IEEE does not favor one over the other. A manual approach to unit testing may employ a step-by-step instructional document.
+
+Under the automated approach-
+
+* A developer could write another section of code in the application just to test the function. They would later comment out and finally remove the test code when the application is done.
+* They could also isolate the function to test it more rigorously. This is a more thorough unit testing practice that involves copy and pasting the function into its own testing environment to other than its natural environment. Isolating the code helps in revealing unnecessary dependencies between the code being tested and other units or data spaces in the product. These dependencies can then be eliminated.
+ 
+
+A coder may use a UnitTest Framework to develop automated test cases. Using an automation framework, the developer codes criteria into the test to verify the correctness of the unit. During execution of the test cases, the framework logs those that fail any criterion. Many frameworks will also automatically flag and report in summary these failed test cases. Depending on the severity of a failure, the framework may halt subsequent testing.
+
+_Unit Testing Tools
+There are several automated tools available to assist with unit testing. We will provide a few examples below:
+
+Jtest: Parasoft Jtest is an IDE plugin that leverages open-source frameworks (Junit, Mockito, PowerMock, and Spring) with guided and easy one-click actions for creating, scaling, and maintaining unit tests. By automating these time-consuming aspects of unit testing, it frees the developer to focus on business logic and create more meaningful test suites.
+Junit: Junit is a free to use testing tool used for Java programming language.  It provides assertions to identify test method. This tool test data first and then inserted in the piece of code.
+NUnit:  NUnit is widely used unit-testing framework use for all .net languages.  It is open source tool which allows writing scripts manually. It supports data-driven tests which can run in parallel.
+JMockit:  JMockit is open source Unit testing tool.  It is code coverage tool with line and path metrics. It allows mocking API with recording and verification syntax. This tool offers Line coverage, Path Coverage, and Data Coverage.
+EMMA:  EMMA is an open-source toolkit for analyzing and reporting code written in Java language. Emma support coverage types like method, line, basic block. It is Java-based so it is without external library dependencies and can access to the source code.
+PHPUnit: PHPUnit is a unit testing tool for PHP programmer. It takes small portions of code which is called units and test each of them separately.  The tool also allows developers to use pre-define assertion methods to assert that system behave in a certain manner. 
+Those are just a few of the available unit testing tools. There are lots more, especially for C languages and Java, but you are sure to find a unit testing tool for your programming needs regardless of the language you use.
 # Project plan
 
 1. Game Project
