@@ -143,6 +143,13 @@ The focus of Performance Testing is checking a software program's
 # Requirements
 
 # Functional plan
+Developers are constantly learning new tools and processes while accumulating real world experiences to be able to resolve problems quickly and elegantly. The down side is that developers require time to explore and learn the tools available to them by which workplaces tend to discourage as work deadlines are prioritized over experimentation. However, gamification systems incorporated as part of the developer’s familiarization period could save time and enable effective learning. 
+
+Gamification could be utilized as a recognition system for the developers work. Despite the efforts and creativity of the developer in problem solving, there is rarely a place of recognition for their achievements. Thus, the implementation of game mechanics such as an achievement systems and leaderboards would highlight the developer’s progress and accomplishments. For Microsoft’s Visual Studio Achievements, developers can unlock badges and compete against one another based on the code they write, its level of sophistication, and the Visual Studio capabilities they use to do so. It not only displays the achievements accomplished among developers, the leaderboard system spur friendly competition and growth among developers. 
+
+Last but not least, developers would be able to monitor their own progress when gamification systems involving points and level system are employed. When scoring systems are attached to a developer’s progress, it enables a tangible manner to observe both their own growth as well as their fellow team mates. In turn, upper management could then  justify rewarding their best developers with quantifiable data on hand. An example would be Nokia’s DVLUP program which lets developers earn experience points and level up as they build Window’s Phone apps and completing challenges. They could then use their points to redeem rewards available to them such as a Lumia 920 or gift cards. On that end note, while extrinsic rewards can be a powerful motivator for developers, it should be noted that it has its shortcomings as well and should not be overused.
+
+These recent developments illustrates that gamification can be compliment in boosting developers and the industry. Gamification not only accelerates the learning process of the tools used by developers, it acts as a archival system in  recognizing their achievements and progress. Furthermore, gamification’s social nature indirectly encourages developers to socialize and collaborate amongst themselves in their field work. For decision makers, gamification systems could potentially yield rich unforeseen data patterns that would benefit them in their decision making process. Thus, for aspiring enterprises who wish to use gamification system for such purposes, it is imperative to customize their systems to make it easier and more enjoyable for developers to do what they do best, solving problems
 
 # Logical design
 
@@ -170,3 +177,4 @@ Updates should happen **every month**, applying new requirements from every side
 It is a **must**, that we make a *backup* before an update happens. The backup should be a **full database, and filesystem backup**. The automation of this sys is *recommended*.
 
 The *update development* should happen on a *scaled down version of the live server*, the **tesing of the update should begin on the 5th day of every month**. Before that, on the 4th of every month, a *database cloning* should happen from the live server **to the test server**.
+
