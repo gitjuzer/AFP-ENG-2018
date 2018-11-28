@@ -4,124 +4,6 @@
 
 # Testing plan
 
-Software Testing Methodology is defined as strategies and testing types used to certify that the Application Under Test meets client expectations. Test Methodologies include functional and non-functional testing to validate the AUT. Examples of Testing Methodologies are Unit Testing, Integration Testing, System Testing, Performance Testing etc. Each testing methodology has a defined test objective, test strategy and deliverables.
-
-
-#Software Testing Hierarchy
-As with almost any technical process, software testing has a prescribed order in which things should be done. The following is a list of software testing categories arranged in chronological order. These are the steps taken to fully test new software in preparation for marketing it:
-
-* Unit testing - testing performed on each module or block of code during development. Unit Testing is normally done by the programmer who writes the code.
-
-* Integration testing - testing done before, during and after integration of a new module into the main software package. This involves testing of each individual code module. One piece of software can contain several modules which are often created by several different programmers. It is crucial to test each module's effect on the entire program model.
-
-* System testing - testing done by a professional testing agent on the completed software product before it is introduced to the market.
-
-* Acceptance testing - beta testing of the product done by the actual end users.
-
-1. Unit Testing:
-Unit Testing of software applications is done during the development (coding) of an application.
-
-The objective of Unit Testing is to isolate a section of code and verify its correctness. In procedural programming a unit may be an individual function or procedure
-
-The goal of Unit Testing is to isolate each part of the program and show that the individual parts are correct. Unit Testing is usually performed by the developer.
-
-_Createing Unit Test Cases:
-Unit testing is commonly automated, but may still be performed manually. The IEEE does not favor one over the other. A manual approach to unit testing may employ a step-by-step instructional document.
-
-Under the automated approach-
-
-* A developer could write another section of code in the application just to test the function. They would later comment out and finally remove the test code when the application is done.
-* They could also isolate the function to test it more rigorously. This is a more thorough unit testing practice that involves copy and pasting the function into its own testing environment to other than its natural environment. Isolating the code helps in revealing unnecessary dependencies between the code being tested and other units or data spaces in the product. These dependencies can then be eliminated.
- 
-
-A coder may use a UnitTest Framework to develop automated test cases. Using an automation framework, the developer codes criteria into the test to verify the correctness of the unit. During execution of the test cases, the framework logs those that fail any criterion. Many frameworks will also automatically flag and report in summary these failed test cases. Depending on the severity of a failure, the framework may halt subsequent testing.
-
-_Unit Testing Tools
-There are several automated tools available to assist with unit testing. We will provide a few examples below:
-
-Jtest: Parasoft Jtest is an IDE plugin that leverages open-source frameworks (Junit, Mockito, PowerMock, and Spring) with guided and easy one-click actions for creating, scaling, and maintaining unit tests. By automating these time-consuming aspects of unit testing, it frees the developer to focus on business logic and create more meaningful test suites.
-Junit: Junit is a free to use testing tool used for Java programming language.  It provides assertions to identify test method. This tool test data first and then inserted in the piece of code.
-NUnit:  NUnit is widely used unit-testing framework use for all .net languages.  It is open source tool which allows writing scripts manually. It supports data-driven tests which can run in parallel.
-JMockit:  JMockit is open source Unit testing tool.  It is code coverage tool with line and path metrics. It allows mocking API with recording and verification syntax. This tool offers Line coverage, Path Coverage, and Data Coverage.
-EMMA:  EMMA is an open-source toolkit for analyzing and reporting code written in Java language. Emma support coverage types like method, line, basic block. It is Java-based so it is without external library dependencies and can access to the source code.
-PHPUnit: PHPUnit is a unit testing tool for PHP programmer. It takes small portions of code which is called units and test each of them separately.  The tool also allows developers to use pre-define assertion methods to assert that system behave in a certain manner. 
-Those are just a few of the available unit testing tools. There are lots more, especially for C languages and Java, but you are sure to find a unit testing tool for your programming needs regardless of the language you use.
-
-2. Integration Testing:
-In integration Testing, individual software modules are integrated logically and tested as a group.
-
-A typical software project consists of multiple software modules, coded by different programmers.
-
- integration Testing focuses on checking data communication amongst these modules.
-
-Hence it is also termed as 'I & T' (Integration and Testing), 'String Testing' and sometimes 'Thread Testing'.
-
-_Guidelines for Integration Testing
-* First determine the Integration Test Strategy that could be adopted and later prepare the test cases and test data accordingly.
-* Study the Architecture design of the Application and identify the Critical Modules. These need to be tested on priority.
-* Obtain the interface designs from the Architectural team and create test cases to verify all of the interfaces in detail. Interface to database/external hardware/software application must be tested in detail.
-* After the test cases, it's the test data which plays the critical role.
-* Always have the mock data prepared, prior to executing. Do not select test data while executing the test cases.
-
-
-3. System Testing
-System Testing is the testing of a complete and fully integrated software product. Usually software is only one element of a larger computer based system. Ultimately, software is interfaced with other software/hardware systems.System Testing is actually a series of different tests whose sole purpose is to exercise the full computer based system.
-
-Two Category of Software Testing
-
-* Black Box Testing
-* White Box Testing
-System test falls under the black box testing category of software testing.
-White box testing is the testing of the internal workings or code of a software application. In contrast, black box or System Testing is the opposite. System test involves the external workings of the software from the user's perspective.
-
-
-_Different Types of System Testing
-There are more than 50 types of System Testing. For an exhaustive list of software testing types click here. Below we have listed types of system testing a large software development company would typically use
-
-1_Usability Testing - Usability Testing mainly focuses on the user's ease to use the application, flexibility in handling controls and ability of the system to meet its objectives
-
-2_Load Testing - Load Testing is necessary to know that a software solution will perform under real-life loads.
-
-3_Regression Testing- - Regression Testing involves testing done to make sure none of the changes made over the course of the development process have caused new bugs. It also makes sure no old bugs appear from the addition of new software modules over time.
-
-4_Recovery Testing - Recovery testing is done to demonstrate a software solution is reliable, trustworthy and can successfully recoup from possible crashes.
-
-5_Migration Testing - Migration testing is done to ensure that the software can be moved from older system infrastructures to current system infrastructures without any issues.
-
-6_Functional Testing - Also known as functional completeness testing, Functional Testing involves trying to think of any possible missing functions. Testers might make a list of additional functionalities that a product could have to improve it during functional testing.
-
-7_Hardware/Software Testing - IBM refers to Hardware/Software testing as "HW/SW Testing". This is when the tester focuses his/her attention on the interactions between the hardware and software during system testing.
-
-4. Performance Testing:
-Performance Testing is a type of testing to ensure software applications will perform well under their expected workload.
-
-Features and Functionality supported by a software system is not the only concern. A software application's performance like its response time, reliability, resource usage and scalability do matter. The goal of Performance Testing is not to find bugs but to eliminate performance bottlenecks.
-
-The focus of Performance Testing is checking a software program's
-
--Speed - Determines whether the application responds quickly
--Scalability - Determines maximum user load the software application can handle.
--Stability - Determines if the application is stable under varying loads
--Performance Testing is popularly called as “Perf Testing” and is a subset of performance engineering.
-
-* Types of Performance Testing
--Load testing - checks the application's ability to perform under anticipated user loads. The objective is to identify performance bottlenecks before the software application goes live.
-
--Stress testing - involves testing an application under extreme workloads to see how it handles high traffic or data processing. The objective is to identify breaking point of an application.
-
--Endurance testing - is done to make sure the software can handle the expected load over a long period of time.
-
--Spike testing - tests the software's reaction to sudden large spikes in the load generated by users.
-
--Volume testing - Under Volume Testing large no. of. Data is populated in database and the overall software system's behavior is monitored. The objective is to check software application's performance under varying database volumes.
-
--Scalability testing - The objective of scalability testing is to determine the software application's effectiveness in "scaling up" to support an increase in user load. It helps plan capacity addition to your software system.
-
-
-
-
-
-
 # Project plan
 
 1. Game Project
@@ -134,8 +16,8 @@ The focus of Performance Testing is checking a software program's
 4. Functional Plan: Xolani Nhlapon
 5. Physical Design: Rayne Blair
 6. Business logic model:  Kaddour Srarfi
+--Deadline for all tasks are the same: 15/12/2018
 
---deadline may wary and it can be from 1 up to 4 weeks long 
 
 
 
@@ -163,12 +45,10 @@ In user table we will have 4 columns:
 
 
 # Update plan
-As it is a *web based application*, the rollout of the updates **might** result in *temporary downtime*. The two exact scenarios are the following:
-- In case, **we have *High Availability*** system, the updates can be rolled out to the servers one by one, meaning absolutely *no downtime*.
-- In case, **we do not have *HA* system**, the server must *disconnect* any *logged in users* and should *not allow new connections*. Then the update can be applied on the server, finally the server can be set again to allow connections.
+As it is a web based application, the rollout of the updates might result in temporary downtime. The two exact scenarios are the following:
+- In case, we have High Availability system, the updates can be rolled out to the servers one by one, meaning absolutely no downtime.
+- In case, we do not have HA system, the server must disconnect any logged in users and should not allow new connections. Then the update can be applied on the server, finally the server can be set again to allow connections.
 
-Updates should happen **every month**, applying new requirements from every side. The exact time for the update should be the *11th day of every month*, at *03:20*, as it seems to be the time, when the system would be used the least.
+Updates should happen every month, applying new requirements from every side. The exact time for the update should be the 11th day of every month, at 03:20, as it seems to be the time, when the system would be used the least.
 
-It is a **must**, that we make a *backup* before an update happens. The backup should be a **full database, and filesystem backup**. The automation of this sys is *recommended*.
-
-The *update development* should happen on a *scaled down version of the live server*, the **tesing of the update should begin on the 5th day of every month**. Before that, on the 4th of every month, a *database cloning* should happen from the live server **to the test server**.
+The update development should happen on a scaled down version of the live server, the tesing of the update should begin on the 5th day of every month. Before that, on the 4th of every month, a database cloning should happen from the live server to the test server.
