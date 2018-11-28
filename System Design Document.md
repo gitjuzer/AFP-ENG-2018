@@ -7,7 +7,7 @@
 Software Testing Methodology is defined as strategies and testing types used to certify that the Application Under Test meets client expectations. Test Methodologies include functional and non-functional testing to validate the AUT. Examples of Testing Methodologies are Unit Testing, Integration Testing, System Testing, Performance Testing etc. Each testing methodology has a defined test objective, test strategy and deliverables.
 
 
-#Software Testing Hierarchy
+++Software Testing Hierarchy
 As with almost any technical process, software testing has a prescribed order in which things should be done. The following is a list of software testing categories arranged in chronological order. These are the steps taken to fully test new software in preparation for marketing it:
 
 * Unit testing - testing performed on each module or block of code during development. Unit Testing is normally done by the programmer who writes the code.
