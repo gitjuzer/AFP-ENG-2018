@@ -173,7 +173,8 @@ These recent developments illustrates that gamification can be compliment in boo
 
 # Database plan
 
-We need to have a database for our project, at least 2 tables: Users and Data table for app use.
+We need to have a database for our project, at least 4 tables: Users, Data, User_role, Topic tables for app use.
+
 In user table we will have 4 columns:
 
 1. id (int, AI)
@@ -181,15 +182,31 @@ In user table we will have 4 columns:
 3. password (varchar)
 4. email (varchar, unique)
 
+This is our main table for login and registration, it requires to be filled 3 columns: Username, which should not be same as someone's else, password to have an acces to your account and email, maybe for future verification feature and for updates and notifications. Without loggining the user has no permission to use our app. Most probable user has to agree for terms of use (of his bank card. HAHA).
+
 Data table:
 
 1. id (int, AI)
 2. Datasource (varchar)
+3. topic_id (foreign key: topic.id)
+4. users_name (foreign key: users.id)
+
+This table has a big role in our project. Because through it user going to get Images (or videos) for further use of application. It will contain link of the data, Topic name of image from topic table and users_id if the image was made or uploaded by user.
 
 Topic (of Data)
-//image can have only one topic
+
 1. id (int, AI)
-2. topicname(varchar, unique) 
+2. topicname(varchar, unique)
+
+Topic table contains different names of topic. Each image must have a topic to be used in game and one image can have only one topic name. The table is made for users to know in what arrea they are going to play, and they (maybe) can choose the topic to be played.
+
+User_role table:
+
+1. id (int, AI)
+2. role_description (varchar)
+
+User role table is for dividing users to different roles. For example in our application users most probably going to have two different accounts: First one for simple users, and second one, which is really important one for us(developers) is VIP account, which gives you more different features and possibilities.
+Of course to get VIP account user has to pay small amount of money ($10).
 
 
 # Update plan
