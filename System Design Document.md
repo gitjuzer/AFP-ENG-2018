@@ -146,6 +146,9 @@ There are a wide variety of performance testing tools available in market. The t
 5. Physical Design: Rayne Blair
 6. Business logic model:  Kaddour Srarfi
 
+--deadline may wary and it can be from 1 up to 4 weeks long 
+
+
 
 
 
@@ -158,7 +161,6 @@ There are a wide variety of performance testing tools available in market. The t
 # Logical design
 
 # Physical Design
-
 
 # Database plan
 
