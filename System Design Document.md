@@ -181,7 +181,35 @@ These recent developments illustrates that gamification can be compliment in boo
 
 # Logical design
 
+
+
+
 # Physical Design
+The project will be developed for PC users using Windows, Linux, and Mac OS. The project will be developed using Visual Studio Community. To share our progress we will be using GitHub to maintain the code and Trello to keep track of tasks and deadlines. 
+
+Environment Constraints and Assumptions:
+
+
+Dependencies:
+
+
+App Development:
+
+
+Accessibility Support:
+
+
+Multi-Language Support:
+
+
+Issues:
+
+
+Testing and Implementation Strategy:
+
+
+
+
 
 # Database plan
 
