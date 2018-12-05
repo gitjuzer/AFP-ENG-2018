@@ -76,6 +76,7 @@
             this.btn_loginGetEx.TabIndex = 4;
             this.btn_loginGetEx.Text = "Login and Get exercise";
             this.btn_loginGetEx.UseVisualStyleBackColor = true;
+            this.btn_loginGetEx.Click += new System.EventHandler(this.btn_loginGetEx_Click);
             // 
             // Login
             // 
