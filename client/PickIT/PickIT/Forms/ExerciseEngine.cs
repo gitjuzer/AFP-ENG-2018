@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PickIT.Forms
+namespace PickIT
 {
     public partial class ExerciseEngine : Form
     {

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PickIT.Forms
+namespace PickIT
 {
     public partial class Login : Form
     {
         public Login()
         {
             InitializeComponent();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

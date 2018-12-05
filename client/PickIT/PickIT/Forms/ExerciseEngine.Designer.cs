@@ -1,4 +1,4 @@
-﻿namespace PickIT.Forms
+﻿namespace PickIT
 {
     partial class ExerciseEngine
     {
