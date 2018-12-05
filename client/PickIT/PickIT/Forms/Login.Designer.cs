@@ -37,14 +37,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(62, 67);
+            this.textBox1.Location = new System.Drawing.Point(70, 72);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(139, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(62, 112);
+            this.textBox2.Location = new System.Drawing.Point(70, 117);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(139, 20);
@@ -53,7 +53,7 @@
             // lbl_loginUsername
             // 
             this.lbl_loginUsername.AutoSize = true;
-            this.lbl_loginUsername.Location = new System.Drawing.Point(59, 51);
+            this.lbl_loginUsername.Location = new System.Drawing.Point(67, 56);
             this.lbl_loginUsername.Name = "lbl_loginUsername";
             this.lbl_loginUsername.Size = new System.Drawing.Size(58, 13);
             this.lbl_loginUsername.TabIndex = 2;
@@ -62,7 +62,7 @@
             // lbl_loginPassword
             // 
             this.lbl_loginPassword.AutoSize = true;
-            this.lbl_loginPassword.Location = new System.Drawing.Point(59, 96);
+            this.lbl_loginPassword.Location = new System.Drawing.Point(67, 101);
             this.lbl_loginPassword.Name = "lbl_loginPassword";
             this.lbl_loginPassword.Size = new System.Drawing.Size(56, 13);
             this.lbl_loginPassword.TabIndex = 3;
@@ -70,7 +70,7 @@
             // 
             // btn_loginGetEx
             // 
-            this.btn_loginGetEx.Location = new System.Drawing.Point(62, 138);
+            this.btn_loginGetEx.Location = new System.Drawing.Point(70, 143);
             this.btn_loginGetEx.Name = "btn_loginGetEx";
             this.btn_loginGetEx.Size = new System.Drawing.Size(139, 46);
             this.btn_loginGetEx.TabIndex = 4;
