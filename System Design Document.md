@@ -185,19 +185,13 @@ These recent developments illustrates that gamification can be compliment in boo
 
 
 # Physical Design
-The project will be developed for PC users using Windows. The project will be developed using Visual Studio Community. To share our progress we will be using GitHub to maintain the code and Trello to keep track of tasks and deadlines. 
+The Physical Design is a complete implementation design or blueprint, in the form of a technical specification that the development team will use to build the solution. Program Management is responsible for ensuring that the physical design document is completed. The project will be developed for PC users using Windows. The project will be developed using Visual Studio Community. To share our progress we will be using GitHub to maintain the code and Trello to keep track of tasks and deadlines. 
 
 Environment Constraints and Assumptions:
 We will be using Visual Studio Community for our IDE, a powerful tool. The only constraints VSC has are its slower loading times and functionality, and its inferior auto-formatting compared to some other IDEs. 
 
 Dependencies:
 The physical design will depend on the size and resolutions of the images we are using as well as the wireframes developed by our team. Each screen of the application will need to hold 4 images as well as some text explaining the exercises. 
-
-App Development:
-
-
-Accessibility Support:
-
 
 Multi-Language Support:
 Due to time constraints we will not be working on multi-language support. Given more time and resources we could develope support for a couple other languages. 
