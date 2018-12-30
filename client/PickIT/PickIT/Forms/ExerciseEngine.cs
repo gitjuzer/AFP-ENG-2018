@@ -42,7 +42,13 @@ namespace PickIT
             p4.ImageLocation = "imgfolder/ex" + folder + "/wrong_3.jpg";
         }
 
-        
+        private void Check()
+        {
+            if (checkBox1.CheckState == CheckState.Checked)
+                MessageBox.Show("Answer is correct!");
+            else
+                MessageBox.Show("Answer is incorrect");
+        }
 
         private void cmd_submite_Click(object sender, EventArgs e)
         {
