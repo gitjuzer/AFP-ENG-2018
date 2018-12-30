@@ -12,9 +12,11 @@ namespace PickIT
 {
     public partial class ExerciseEngine : Form
     {
-        public ExerciseEngine()
+        public ExerciseEngine(string Exercise)
         {
             InitializeComponent();
+
+
         }
     }
 }
