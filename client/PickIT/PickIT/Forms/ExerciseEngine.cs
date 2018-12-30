@@ -20,9 +20,28 @@ namespace PickIT
             folder = rnd.Next(0, 4);
 
             p1.ImageLocation = "imgfolder/ex1/correct.jpg";
+            p2.ImageLocation = "imgfolder/ex1/wrong_1.jpg";
+            p3.ImageLocation = "imgfolder/ex1/wrong_2.jpg";
+            p4.ImageLocation = "imgfolder/ex1/wrong_3.jpg";
 
             p1.SizeMode = PictureBoxSizeMode.Zoom;
+            p2.SizeMode = PictureBoxSizeMode.Zoom;
+            p3.SizeMode = PictureBoxSizeMode.Zoom;
+            p4.SizeMode = PictureBoxSizeMode.Zoom;
         }
+
+        private void addImages()
+        {
+            int folder;
+            folder = rnd.Next(0, 4);
+
+            p1.ImageLocation = "imgfolder/ex"+folder+"/correct.jpg";
+            p2.ImageLocation = "imgfolder/ex"+folder+"/wrong_1.jpg";
+            p3.ImageLocation = "imgfolder/ex" + folder + "/wrong_2.jpg";
+            p4.ImageLocation = "imgfolder/ex" + folder + "/wrong_3.jpg";
+        }
+
+        
 
         private void cmd_submite_Click(object sender, EventArgs e)
         {
