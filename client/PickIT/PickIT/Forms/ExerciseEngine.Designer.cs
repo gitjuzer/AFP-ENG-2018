@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExerciseEngine));
             this.p1 = new System.Windows.Forms.PictureBox();
             this.p2 = new System.Windows.Forms.PictureBox();
             this.p3 = new System.Windows.Forms.PictureBox();
@@ -43,9 +44,11 @@
             // 
             // p1
             // 
+            this.p1.Image = ((System.Drawing.Image)(resources.GetObject("p1.Image")));
             this.p1.Location = new System.Drawing.Point(48, 163);
             this.p1.Name = "p1";
             this.p1.Size = new System.Drawing.Size(200, 100);
+            this.p1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.p1.TabIndex = 0;
             this.p1.TabStop = false;
             // 
@@ -84,6 +87,7 @@
             this.cmd_submite.TabIndex = 4;
             this.cmd_submite.Text = "submite";
             this.cmd_submite.UseVisualStyleBackColor = true;
+            this.cmd_submite.Click += new System.EventHandler(this.cmd_submite_Click);
             // 
             // checkBox1
             // 
