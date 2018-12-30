@@ -29,6 +29,28 @@ namespace PickIT
             p2.SizeMode = PictureBoxSizeMode.Zoom;
             p3.SizeMode = PictureBoxSizeMode.Zoom;
             p4.SizeMode = PictureBoxSizeMode.Zoom;
+<<<<<<< HEAD
+=======
+        }
+
+        private void addImages()
+        {
+            int folder;
+            folder = rnd.Next(0, 4);
+
+            p1.ImageLocation = "imgfolder/ex"+folder+"/correct.jpg";
+            p2.ImageLocation = "imgfolder/ex"+folder+"/wrong_1.jpg";
+            p3.ImageLocation = "imgfolder/ex" + folder + "/wrong_2.jpg";
+            p4.ImageLocation = "imgfolder/ex" + folder + "/wrong_3.jpg";
+        }
+
+        private void Check()
+        {
+            if (checkBox1.CheckState == CheckState.Checked)
+                MessageBox.Show("Answer is correct!");
+            else
+                MessageBox.Show("Answer is incorrect");
+>>>>>>> 91e001e08a251dfe7d76ea088dfcd2b44956abde
         }
 
         private void addImages()
