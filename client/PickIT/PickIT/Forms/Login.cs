@@ -30,6 +30,8 @@ namespace PickIT
         static string token1 = "";
         static string username1 = "";
 
+//change button names or add them and call POST_LOGIN(); in button click
+//write existing textbox names instead of mine
         private void login_btn_Click(object sender, EventArgs e)
         {
             POST_LOGIN();
