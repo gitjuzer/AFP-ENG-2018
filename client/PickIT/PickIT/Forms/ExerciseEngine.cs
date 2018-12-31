@@ -20,10 +20,10 @@ namespace PickIT
             int folder;
             folder = rnd.Next(0, 4);
 
-            p1.ImageLocation = "imgfolder/ex1/correct.jpg";
-            p2.ImageLocation = "imgfolder/ex1/wrong_1.jpg";
-            p3.ImageLocation = "imgfolder/ex1/wrong_2.jpg";
-            p4.ImageLocation = "imgfolder/ex1/wrong_3.jpg";
+            p1.ImageLocation = "../../imgfolder/ex1/correct.jpg";
+            p2.ImageLocation = "../../imgfolder/ex1/wrong_1.jpg";
+            p3.ImageLocation = "../../imgfolder/ex1/wrong_2.jpg";
+            p4.ImageLocation = "../../imgfolder/ex1/wrong_3.jpg";
            
 
             p1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -36,25 +36,32 @@ namespace PickIT
         private void addImages()
         {
             int folder;
-            folder = rnd.Next(0, 4);
+            folder = rnd.Next(1, 5);
 
             p1.ImageLocation = "imgfolder/ex"+folder+"/correct.jpg";
             p2.ImageLocation = "imgfolder/ex"+folder+"/wrong_1.jpg";
-            p3.ImageLocation = "imgfolder/ex" + folder + "/wrong_2.jpg";
-            p4.ImageLocation = "imgfolder/ex" + folder + "/wrong_3.jpg";
+            p3.ImageLocation = "imgfolder/ex"+folder+"/wrong_2.jpg";
+            p4.ImageLocation = "imgfolder/ex"+folder +"/wrong_3.jpg";
         }
 
         private void Check()
         {
-            if (checkBox1.CheckState == CheckState.Checked)
+            if ((checkBox1.CheckState == CheckState.Checked) && 
+                (checkBox2.CheckState != CheckState.Checked)&& 
+                (checkBox3.CheckState != CheckState.Checked)&&
+                (checkBox4.CheckState != CheckState.Checked))
                 MessageBox.Show("Answer is correct!");
             else
                 MessageBox.Show("Answer is incorrect");
-
         }
         
 
         private void cmd_submite_Click(object sender, EventArgs e)
+        {
+            Check();
+        }
+
+        private void ExerciseEngine_Load(object sender, EventArgs e)
         {
 
         }
