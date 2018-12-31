@@ -14,7 +14,7 @@ namespace PickIT
     public partial class ExerciseEngine : Form
     {
         static Random rnd = new Random();
-        public ExerciseEngine(/*string Exercise*/)
+        public ExerciseEngine()
         {
             InitializeComponent();
             int folder;
@@ -30,7 +30,11 @@ namespace PickIT
             p2.SizeMode = PictureBoxSizeMode.Zoom;
             p3.SizeMode = PictureBoxSizeMode.Zoom;
             p4.SizeMode = PictureBoxSizeMode.Zoom;
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> 36820853b3fbd64b2896307341991911376840c2
         }
 
         private void addImages()
@@ -38,10 +42,17 @@ namespace PickIT
             int folder;
             folder = rnd.Next(1, 5);
 
+<<<<<<< HEAD
             p1.ImageLocation = "imgfolder/ex"+folder+"/correct.jpg";
             p2.ImageLocation = "imgfolder/ex"+folder+"/wrong_1.jpg";
             p3.ImageLocation = "imgfolder/ex"+folder+"/wrong_2.jpg";
             p4.ImageLocation = "imgfolder/ex"+folder +"/wrong_3.jpg";
+=======
+            p1.ImageLocation = "../../imgfolder/ex"+folder+"/correct.jpg";
+            p2.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_1.jpg";
+            p3.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_2.jpg";
+            p4.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_3.jpg";
+>>>>>>> 36820853b3fbd64b2896307341991911376840c2
         }
 
         private void Check()
@@ -60,10 +71,16 @@ namespace PickIT
         {
             Check();
         }
+<<<<<<< HEAD
 
         private void ExerciseEngine_Load(object sender, EventArgs e)
         {
+=======
+>>>>>>> 36820853b3fbd64b2896307341991911376840c2
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            addImages();
         }
     }
 }

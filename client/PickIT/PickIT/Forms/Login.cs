@@ -37,7 +37,7 @@ namespace PickIT
             POST_LOGIN();
         }
 
-        public void POST_LOGIN()
+        public bool POST_LOGIN()
         {
             var client = new RestClient(url + "/index.php");
             var request = new RestRequest(Method.POST);
@@ -55,12 +55,15 @@ namespace PickIT
                 {
                     token1 = resp.token;
                     username1 = username_txt.Text;
+                    return true;
                 }
             }
             else
             {
                 MessageBox.Show("Username or Password field is empty!");
+                return false;
             }
+            return false;
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -70,14 +73,14 @@ namespace PickIT
 
         private void btn_loginGetEx_Click(object sender, EventArgs e)
         {
-            RestClient client = new RestClient("example.com");
-            RestRequest request = new RestRequest(Method.POST);
-            request.AddParameter("username", lbl_loginUsername.Text);
-            request.AddParameter("password", lbl_loginPassword.Text);
-            string content = client.Execute(request).Content;
-            if (content == string.Empty)
+            POST_LOGIN();
+            if (POST_LOGIN())
             {
-                return;
+                Application.EnableVisualStyles();
+                ExerciseEngine en = new ExerciseEngine();
+                this.Hide();
+                en.ShowDialog();
+                this.Close();
             }
         }
     }
