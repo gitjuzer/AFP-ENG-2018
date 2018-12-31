@@ -30,14 +30,12 @@ namespace PickIT
             p2.SizeMode = PictureBoxSizeMode.Zoom;
             p3.SizeMode = PictureBoxSizeMode.Zoom;
             p4.SizeMode = PictureBoxSizeMode.Zoom;
-            
         }
 
         private void addImages()
         {
             int folder;
             folder = rnd.Next(1, 5);
-
             p1.ImageLocation = "../../imgfolder/ex"+folder+"/correct.jpg";
             p2.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_1.jpg";
             p3.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_2.jpg";
@@ -46,7 +44,10 @@ namespace PickIT
 
         private void Check()
         {
-            if (checkBox1.CheckState == CheckState.Checked)
+            if ((checkBox1.CheckState == CheckState.Checked) && 
+                (checkBox2.CheckState != CheckState.Checked)&& 
+                (checkBox3.CheckState != CheckState.Checked)&&
+                (checkBox4.CheckState != CheckState.Checked))
                 MessageBox.Show("Answer is correct!");
             else
                 MessageBox.Show("Answer is incorrect");
@@ -56,6 +57,10 @@ namespace PickIT
         private void cmd_submite_Click(object sender, EventArgs e)
         {
             Check();
+        }
+
+        private void ExerciseEngine_Load(object sender, EventArgs e)
+        {
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -10,32 +10,18 @@ using System.Windows.Forms;
 using RestSharp;
 using Newtonsoft.Json;
 
-//dear windows users add Newtonsoft and 2 textboxes to Login form: username_txt and password_txt
 namespace PickIT
 {
-    class Responce
-    {   
-        public string status_code { get; set; }
-        public string message { get; set; }
-        public string token { get; set; }
-    }
-    public partial class Login : Form
+    public partial class Login1 : Form
     {
-        public Login()
+        public Login1()
         {
             InitializeComponent();
         }
 
         string url = "http://maksat.coldciderstudios.com/cars";
         static string token1 = "";
-        static string username1 = "";
-
-//change button names or add them and call POST_LOGIN(); in button click
-//write existing textbox names instead of mine
-        private void login_btn_Click(object sender, EventArgs e)
-        {
-            POST_LOGIN();
-        }
+        static string username1 = "maks";
 
         public bool POST_LOGIN()
         {
@@ -66,12 +52,7 @@ namespace PickIT
             return false;
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_loginGetEx_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             POST_LOGIN();
             if (POST_LOGIN())
@@ -83,5 +64,6 @@ namespace PickIT
                 this.Close();
             }
         }
+
     }
 }

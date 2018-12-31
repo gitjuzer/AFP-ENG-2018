@@ -91,7 +91,7 @@
             this.cmd_submite.Name = "cmd_submite";
             this.cmd_submite.Size = new System.Drawing.Size(91, 37);
             this.cmd_submite.TabIndex = 4;
-            this.cmd_submite.Text = "submite";
+            this.cmd_submite.Text = "submit";
             this.cmd_submite.UseVisualStyleBackColor = true;
             this.cmd_submite.Click += new System.EventHandler(this.cmd_submite_Click);
             // 
@@ -131,7 +131,7 @@
             // p4
             // 
             this.p4.Location = new System.Drawing.Point(785, 162);
-            this.p4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.p4.Margin = new System.Windows.Forms.Padding(4);
             this.p4.Name = "p4";
             this.p4.Size = new System.Drawing.Size(165, 100);
             this.p4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -142,7 +142,7 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(822, 270);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(116, 21);
             this.checkBox4.TabIndex = 9;
@@ -178,6 +178,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ExerciseEngine";
             this.Text = "ExerciseEngine";
+            this.Load += new System.EventHandler(this.ExerciseEngine_Load);
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();
