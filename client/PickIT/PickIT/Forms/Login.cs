@@ -37,7 +37,7 @@ namespace PickIT
             POST_LOGIN();
         }
 
-        public void POST_LOGIN()
+        public bool POST_LOGIN()
         {
             var client = new RestClient(url + "/index.php");
             var request = new RestRequest(Method.POST);
@@ -55,12 +55,15 @@ namespace PickIT
                 {
                     token1 = resp.token;
                     username1 = username_txt.Text;
+                    return true;
                 }
             }
             else
             {
                 MessageBox.Show("Username or Password field is empty!");
+                return false;
             }
+            return false;
         }
 
         private void Login_Load(object sender, EventArgs e)
