@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.username_txt = new System.Windows.Forms.TextBox();
+            this.password_txt = new System.Windows.Forms.TextBox();
             this.lbl_loginUsername = new System.Windows.Forms.Label();
             this.lbl_loginPassword = new System.Windows.Forms.Label();
             this.btn_loginGetEx = new System.Windows.Forms.Button();
@@ -37,18 +37,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(70, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
-            this.textBox1.TabIndex = 0;
+            this.username_txt.Location = new System.Drawing.Point(70, 72);
+            this.username_txt.Name = "username_txt";
+            this.username_txt.Size = new System.Drawing.Size(139, 20);
+            this.username_txt.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(70, 117);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(139, 20);
-            this.textBox2.TabIndex = 1;
+            this.password_txt.Location = new System.Drawing.Point(70, 117);
+            this.password_txt.Name = "password_txt";
+            this.password_txt.PasswordChar = '*';
+            this.password_txt.Size = new System.Drawing.Size(139, 20);
+            this.password_txt.TabIndex = 1;
             // 
             // lbl_loginUsername
             // 
@@ -86,8 +86,8 @@
             this.Controls.Add(this.btn_loginGetEx);
             this.Controls.Add(this.lbl_loginPassword);
             this.Controls.Add(this.lbl_loginUsername);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.password_txt);
+            this.Controls.Add(this.username_txt);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
@@ -98,8 +98,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox username_txt;
+        private System.Windows.Forms.TextBox password_txt;
         private System.Windows.Forms.Label lbl_loginUsername;
         private System.Windows.Forms.Label lbl_loginPassword;
         private System.Windows.Forms.Button btn_loginGetEx;

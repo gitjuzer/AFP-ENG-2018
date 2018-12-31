@@ -48,7 +48,7 @@ namespace PickIT
                 request.AddParameter("username", username_txt.Text);
                 request.AddParameter("password", password_txt.Text);
 
-                Response resp = JsonConvert.DeserializeObject<Response>(client.Execute(request).Content);
+                Responce resp = JsonConvert.DeserializeObject<Responce>(client.Execute(request).Content);
 
                 MessageBox.Show("Status code: " + resp.status_code + "\n" + resp.message);
                 if (resp.token != "")
