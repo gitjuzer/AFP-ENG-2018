@@ -24,11 +24,13 @@ namespace PickIT
             p2.ImageLocation = "imgfolder/ex1/wrong_1.jpg";
             p3.ImageLocation = "imgfolder/ex1/wrong_2.jpg";
             p4.ImageLocation = "imgfolder/ex1/wrong_3.jpg";
+           
 
             p1.SizeMode = PictureBoxSizeMode.Zoom;
             p2.SizeMode = PictureBoxSizeMode.Zoom;
             p3.SizeMode = PictureBoxSizeMode.Zoom;
             p4.SizeMode = PictureBoxSizeMode.Zoom;
+
         }
 
         private void addImages()
@@ -48,7 +50,9 @@ namespace PickIT
                 MessageBox.Show("Answer is correct!");
             else
                 MessageBox.Show("Answer is incorrect");
+
         }
+        
 
         private void cmd_submite_Click(object sender, EventArgs e)
         {
