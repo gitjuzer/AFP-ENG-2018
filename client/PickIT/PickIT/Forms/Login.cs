@@ -73,14 +73,14 @@ namespace PickIT
 
         private void btn_loginGetEx_Click(object sender, EventArgs e)
         {
-            RestClient client = new RestClient("example.com");
-            RestRequest request = new RestRequest(Method.POST);
-            request.AddParameter("username", lbl_loginUsername.Text);
-            request.AddParameter("password", lbl_loginPassword.Text);
-            string content = client.Execute(request).Content;
-            if (content == string.Empty)
+            POST_LOGIN();
+            if (POST_LOGIN())
             {
-                return;
+                Application.EnableVisualStyles();
+                ExerciseEngine en = new ExerciseEngine();
+                this.Hide();
+                en.ShowDialog();
+                this.Close();
             }
         }
     }
