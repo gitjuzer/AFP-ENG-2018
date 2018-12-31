@@ -38,6 +38,7 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.p4 = new System.Windows.Forms.PictureBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).BeginInit();
@@ -76,16 +77,16 @@
             // 
             this.lbl_Ex.AutoSize = true;
             this.lbl_Ex.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Ex.Location = new System.Drawing.Point(441, 54);
+            this.lbl_Ex.Location = new System.Drawing.Point(312, 43);
             this.lbl_Ex.Name = "lbl_Ex";
-            this.lbl_Ex.Size = new System.Drawing.Size(121, 29);
+            this.lbl_Ex.Size = new System.Drawing.Size(454, 29);
             this.lbl_Ex.TabIndex = 3;
-            this.lbl_Ex.Text = "Example!";
+            this.lbl_Ex.Text = "Which one does not satisfy the group?";
             // 
             // cmd_submite
             // 
             this.cmd_submite.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmd_submite.Location = new System.Drawing.Point(447, 353);
+            this.cmd_submite.Location = new System.Drawing.Point(471, 359);
             this.cmd_submite.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmd_submite.Name = "cmd_submite";
             this.cmd_submite.Size = new System.Drawing.Size(91, 37);
@@ -148,11 +149,22 @@
             this.checkBox4.Text = "Fourth choice";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(980, 355);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(88, 46);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "New Example!";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ExerciseEngine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1135, 478);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.p4);
             this.Controls.Add(this.checkBox3);
@@ -187,5 +199,6 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.PictureBox p4;
         private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Button button1;
     }
 }
