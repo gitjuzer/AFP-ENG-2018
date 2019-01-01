@@ -60,11 +60,17 @@
     <Compile Include="Forms\ExerciseEngine.Designer.cs">
       <DependentUpon>ExerciseEngine.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Forms\Login1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Login1.Designer.cs">
       <DependentUpon>Login1.cs</DependentUpon>
+=======
+    <Compile Include="Forms\Login.cs" />
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+>>>>>>> 42d06f966855f289a48158592542a86f4772fbcd
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

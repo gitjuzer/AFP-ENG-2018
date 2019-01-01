@@ -29,7 +29,8 @@ namespace PickIT
             p1.SizeMode = PictureBoxSizeMode.Zoom;
             p2.SizeMode = PictureBoxSizeMode.Zoom;
             p3.SizeMode = PictureBoxSizeMode.Zoom;
-            p4.SizeMode = PictureBoxSizeMode.Zoom;
+            p4.SizeMode = PictureBoxSizeMode.Zoom; 
+
         }
 
         private void addImages()
@@ -57,10 +58,6 @@ namespace PickIT
         private void cmd_submite_Click(object sender, EventArgs e)
         {
             Check();
-        }
-
-        private void ExerciseEngine_Load(object sender, EventArgs e)
-        {
         }
 
         private void button1_Click(object sender, EventArgs e)

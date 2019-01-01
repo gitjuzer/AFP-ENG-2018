@@ -47,6 +47,8 @@
             // 
             // p1
             // 
+            this.p1.Location = new System.Drawing.Point(36, 132);
+            this.p1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.p1.Location = new System.Drawing.Point(48, 162);
             this.p1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.p1.Name = "p1";
@@ -130,8 +132,11 @@
             // 
             // p4
             // 
+
+            this.p4.Location = new System.Drawing.Point(589, 132);
             this.p4.Location = new System.Drawing.Point(785, 162);
             this.p4.Margin = new System.Windows.Forms.Padding(4);
+            this.p4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.p4.Name = "p4";
             this.p4.Size = new System.Drawing.Size(165, 100);
             this.p4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -141,6 +146,9 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(616, 219);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(91, 17);
             this.checkBox4.Location = new System.Drawing.Point(822, 270);
             this.checkBox4.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox4.Name = "checkBox4";
