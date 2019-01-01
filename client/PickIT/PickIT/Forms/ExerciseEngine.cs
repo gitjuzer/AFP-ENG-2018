@@ -14,53 +14,138 @@ namespace PickIT
     public partial class ExerciseEngine : Form
     {
         static Random rnd = new Random();
+        public int folder;
         public ExerciseEngine()
         {
             InitializeComponent();
-            int folder;
-            folder = rnd.Next(0, 4);
-
-            p1.ImageLocation = "../../imgfolder/ex1/correct.jpg";
-            p2.ImageLocation = "../../imgfolder/ex1/wrong_1.jpg";
-            p3.ImageLocation = "../../imgfolder/ex1/wrong_2.jpg";
-            p4.ImageLocation = "../../imgfolder/ex1/wrong_3.jpg";
-           
-
-            p1.SizeMode = PictureBoxSizeMode.Zoom;
-            p2.SizeMode = PictureBoxSizeMode.Zoom;
-            p3.SizeMode = PictureBoxSizeMode.Zoom;
-            p4.SizeMode = PictureBoxSizeMode.Zoom; 
+            addImages();
 
         }
 
         private void addImages()
         {
-            int folder;
+
             folder = rnd.Next(1, 5);
-            p1.ImageLocation = "../../imgfolder/ex"+folder+"/correct.jpg";
-            p2.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_1.jpg";
-            p3.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_2.jpg";
-            p4.ImageLocation = "../../imgfolder/ex"+folder+"/wrong_3.jpg";
+            p1.ImageLocation = "../../imgfolder/ex" + folder + "/1.jpg";
+            p2.ImageLocation = "../../imgfolder/ex" + folder + "/2.jpg";
+            p3.ImageLocation = "../../imgfolder/ex" + folder + "/3.jpg";
+            p4.ImageLocation = "../../imgfolder/ex" + folder + "/4.jpg";
+            p1.SizeMode = PictureBoxSizeMode.Zoom;
+            p2.SizeMode = PictureBoxSizeMode.Zoom;
+            p3.SizeMode = PictureBoxSizeMode.Zoom;
+            p4.SizeMode = PictureBoxSizeMode.Zoom;
         }
 
-        private void Check()
+        private bool Check()
         {
-            if ((checkBox1.CheckState == CheckState.Checked) && 
-                (checkBox2.CheckState != CheckState.Checked)&& 
-                (checkBox3.CheckState != CheckState.Checked)&&
-                (checkBox4.CheckState != CheckState.Checked))
-                MessageBox.Show("Answer is correct!");
-            else
-                MessageBox.Show("Answer is incorrect");
+            switch (folder)
+            {
+                case 1:
+                if ((checkBox1.CheckState == CheckState.Checked) &&
+                    (checkBox2.CheckState == CheckState.Unchecked) &&
+                    (checkBox3.CheckState == CheckState.Unchecked) &&
+                    (checkBox4.CheckState == CheckState.Unchecked))
+                    {
+                        MessageBox.Show("Answer is correct!");
+                        return true;
+                        break;
+                    }
+                    else
+                    {
+                        MessageBox.Show("The answer is surprisingly incorrect!");
+                        checkBox1.CheckState = CheckState.Unchecked;
+                        checkBox2.CheckState = CheckState.Unchecked;
+                        checkBox3.CheckState = CheckState.Unchecked;
+                        checkBox4.CheckState = CheckState.Unchecked;
+                        return false;
+                        break;
+                    }
+
+                case 2:
+                    if ((checkBox1.CheckState == CheckState.Unchecked) &&
+                  (checkBox2.CheckState == CheckState.Checked) &&
+                  (checkBox3.CheckState == CheckState.Unchecked) &&
+                  (checkBox4.CheckState == CheckState.Unchecked))
+                    {
+                        MessageBox.Show("Answer is correct!");
+                        return true;
+                        break;
+                    }
+                    else
+                    {
+                        MessageBox.Show("The answer is surprisingly incorrect!");
+                        checkBox1.CheckState = CheckState.Unchecked;
+                        checkBox2.CheckState = CheckState.Unchecked;
+                        checkBox3.CheckState = CheckState.Unchecked;
+                        checkBox4.CheckState = CheckState.Unchecked;
+                        return false;
+                        break;
+                    }
+
+                case 3:
+                    if ((checkBox1.CheckState == CheckState.Unchecked) &&
+                   (checkBox2.CheckState == CheckState.Unchecked) &&
+                   (checkBox3.CheckState == CheckState.Checked) &&
+                   (checkBox4.CheckState == CheckState.Unchecked))
+                    {
+                        MessageBox.Show("Answer is correct!");
+                        return true;
+                        break;
+                    }
+                    else
+                    {
+                        MessageBox.Show("The answer is surprisingly incorrect!");
+                        checkBox1.CheckState = CheckState.Unchecked;
+                        checkBox2.CheckState = CheckState.Unchecked;
+                        checkBox3.CheckState = CheckState.Unchecked;
+                        checkBox4.CheckState = CheckState.Unchecked;
+                        return false;
+                        break;
+                    }
+
+                case 4:
+                    if ((checkBox1.CheckState == CheckState.Unchecked) &&
+                   (checkBox2.CheckState == CheckState.Unchecked) &&
+                   (checkBox3.CheckState == CheckState.Unchecked) &&
+                   (checkBox4.CheckState == CheckState.Checked))
+                    {
+                        MessageBox.Show("Answer is correct!");
+                        return true;
+                        break;
+                    }
+                    else
+                    {
+                        MessageBox.Show("The answer is surprisingly incorrect!");
+                        checkBox1.CheckState = CheckState.Unchecked;
+                        checkBox2.CheckState = CheckState.Unchecked;
+                        checkBox3.CheckState = CheckState.Unchecked;
+                        checkBox4.CheckState = CheckState.Unchecked;
+                        return false;
+                        break;
+                    }
+
+
+                default:
+                    return false;
+                    break;
+            }
         }
-        
+
 
         private void cmd_submite_Click(object sender, EventArgs e)
         {
             Check();
+            if (Check())
+            {
+                checkBox1.CheckState = CheckState.Unchecked;
+                checkBox2.CheckState = CheckState.Unchecked;
+                checkBox3.CheckState = CheckState.Unchecked;
+                checkBox4.CheckState = CheckState.Unchecked;
+            }
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void cmd_newEx_Click(object sender, EventArgs e)
         {
             addImages();
         }

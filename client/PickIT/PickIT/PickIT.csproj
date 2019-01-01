@@ -53,20 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Responce.cs" />
     <Compile Include="Forms\ExerciseEngine.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\ExerciseEngine.Designer.cs">
       <DependentUpon>ExerciseEngine.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Login1.cs">
+    <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Login1.Designer.cs">
-      <DependentUpon>Login1.cs</DependentUpon>
-      </Compile>
-    <Compile Include="Forms\Login.cs" />
     <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
@@ -75,8 +71,8 @@
     <EmbeddedResource Include="Forms\ExerciseEngine.resx">
       <DependentUpon>ExerciseEngine.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Login1.resx">
-      <DependentUpon>Login1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -104,22 +100,22 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="imgfolder\ex1\correct.jpg" />
-    <Content Include="imgfolder\ex1\wrong_1.jpg" />
-    <Content Include="imgfolder\ex1\wrong_2.jpg" />
-    <Content Include="imgfolder\ex1\wrong_3.jpg" />
-    <Content Include="imgfolder\ex2\correct.jpg" />
-    <Content Include="imgfolder\ex2\wrong_1.jpg" />
-    <Content Include="imgfolder\ex2\wrong_2.jpg" />
-    <Content Include="imgfolder\ex2\wrong_3.jpg" />
-    <Content Include="imgfolder\ex3\correct.jpg" />
-    <Content Include="imgfolder\ex3\wrong_1.jpg" />
-    <Content Include="imgfolder\ex3\wrong_2.jpg" />
-    <Content Include="imgfolder\ex3\wrong_3.jpg" />
-    <Content Include="imgfolder\ex4\correct.jpg" />
-    <Content Include="imgfolder\ex4\wrong_1.jpg" />
-    <Content Include="imgfolder\ex4\wrong_2.jpg" />
-    <Content Include="imgfolder\ex4\wrong_3.jpg" />
+    <Content Include="imgfolder\ex1\1.jpg" />
+    <Content Include="imgfolder\ex1\2.jpg" />
+    <Content Include="imgfolder\ex1\3.jpg" />
+    <Content Include="imgfolder\ex1\4.jpg" />
+    <Content Include="imgfolder\ex2\2.jpg" />
+    <Content Include="imgfolder\ex2\1.jpg" />
+    <Content Include="imgfolder\ex2\3.jpg" />
+    <Content Include="imgfolder\ex2\4.jpg" />
+    <Content Include="imgfolder\ex3\3.jpg" />
+    <Content Include="imgfolder\ex3\1.jpg" />
+    <Content Include="imgfolder\ex3\2.jpg" />
+    <Content Include="imgfolder\ex3\4.jpg" />
+    <Content Include="imgfolder\ex4\4.jpg" />
+    <Content Include="imgfolder\ex4\1.jpg" />
+    <Content Include="imgfolder\ex4\2.jpg" />
+    <Content Include="imgfolder\ex4\3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

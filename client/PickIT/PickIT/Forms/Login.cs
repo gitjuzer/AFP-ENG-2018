@@ -12,9 +12,9 @@ using Newtonsoft.Json;
 
 namespace PickIT
 {
-    public partial class Login1 : Form
+    public partial class Login : Form
     {
-        public Login1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -36,12 +36,18 @@ namespace PickIT
 
                 Responce resp = JsonConvert.DeserializeObject<Responce>(client.Execute(request).Content);
 
-                MessageBox.Show("Status code: " + resp.status_code + "\n" + resp.message);
+                 MessageBox.Show("Status code: " + resp.status_code + "\n" + resp.message);
+               
                 if (resp.token != "")
                 {
                     token1 = resp.token;
                     username1 = username_txt.Text;
-                    return true;
+                    if (resp.message== "Successful login!")
+                    {
+                     return true;
+                    }
+                    
+
                 }
             }
             else
@@ -52,8 +58,9 @@ namespace PickIT
             return false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void cmd_login_Click(object sender, EventArgs e)
         {
+            cmd_login.Focus();
             POST_LOGIN();
             if (POST_LOGIN())
             {
