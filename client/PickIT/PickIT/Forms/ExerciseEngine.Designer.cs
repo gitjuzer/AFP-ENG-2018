@@ -186,7 +186,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ExerciseEngine";
             this.Text = "ExerciseEngine";
-            this.Load += new System.EventHandler(this.ExerciseEngine_Load);
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();
